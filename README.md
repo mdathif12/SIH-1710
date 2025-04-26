@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
-# Date:
-## Register Number:
-## Name:
+# Date:20/04/2025
+## Register Number:212223220058
+## Name:Mohamed Athif Rahuman J
 ## Problem Title
 SIH 1710: Enhancing Navigation for Railway Station Facilities and Locations
 ## Problem Description
@@ -11,16 +11,58 @@ Background: Railway stations are complex environments with numerous facilities a
 Ministry of Railway
 
 ## Idea
+Develop a Smart Railway Station Navigation System that provides real-time, interactive navigation assistance to passengers through a mobile app, digital kiosks, and voice guidance.
 
+## Proposed Solution / Architecture Diagram:
 
-## Proposed Solution / Architecture Diagram
+![arch](https://github.com/user-attachments/assets/b3305d06-a880-4a88-8a66-56405a30f951)
+
+## User Interface:
+
+Mobile App (Android & iOS)
+
+Digital Kiosks with touch-screen navigation
+
+## Backend:
+
+Cloud-based real-time database
+
+AI/ML for predictive route suggestions
+
+GPS & indoor positioning system for real-time location tracking
+
+## Integration:
+
+Existing railway apps (IRCTC, UTS, etc.)
+
+Live station data for dynamic updates
+
+IoT sensors for crowd density estimation
 
 
 ## Use Cases
-
+![uml](https://github.com/user-attachments/assets/2c247436-1d7c-47dc-a432-f2d5a1b988c9)
 
 ## Technology Stack
 
+Frontend: React Native (Mobile App), JavaScript (Digital Kiosk UI)
+
+Backend: Node.js, Firebase, PostgreSQL
+
+AI/ML: Python (for predictive analytics and congestion monitoring)
+
+Navigation Services: Google Maps API, OpenStreetMap, Indoor Navigation SDK
+
+Cloud Hosting: Google Cloud / AWS
 
 ## Dependencies
+
+Access to real-time railway station data.
+
+API integration with Indian Railways services.
+
+Deployment permissions for digital kiosks in stations.
+
+Compliance with government regulations on data privacy.
+
 
